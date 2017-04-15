@@ -254,6 +254,14 @@ e.g. `'master'`
 e.g. `'868ff435d6a480929103452e5ebe8671c5c89f77'`
   </dd>
 
+
+<dt>defaultPayload
+</dt>
+<dd>Defaul payload to set when sending errors with `handleUncaughtExceptions`
+
+e.g. `{ source_map_enabled: true }`
+  </dd>
+
 <dt>endpoint
 </dt>
 <dd>The rollbar API base url.
